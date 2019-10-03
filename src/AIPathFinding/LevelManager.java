@@ -13,7 +13,7 @@ public final class LevelManager {
     }
 
     public static int[][] loadLevel(int level) {
-        String path = RELATIVE_PATH + "Level" + level;
+        String path = RELATIVE_PATH + "Level" + level + ".txt";
         ArrayList<String> list = new ArrayList<>();
         int col = 0;
         try {
